@@ -1,0 +1,19 @@
+body 
+{
+    margin: 0;
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Montserrat';
+    font-weight: 600;
+
+    background: var(--COLOR_background);
+
+    overflow: hidden;
+}
+
+.swiper
+{
+    width: 100svw;
+    height: 100svh;
+}

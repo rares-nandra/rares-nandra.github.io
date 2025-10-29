@@ -1,0 +1,20 @@
+:root 
+{
+    --COLOR_background: radial-gradient(ellipse at bottom, #223244 0%, #090A0F 100%);
+    --COLOR_backgroundPrimary: rgb(18, 18, 18);
+    --COLOR_backgroundSecondary: rgb(31, 31, 31);
+    --COLOR_backgroundAccent: rgb(48, 73, 103);
+
+    --COLOR_textPrimary: rgb(200, 200, 200);
+    --COLOR_textOnAccent: rgb(200, 200, 200);
+
+    --COLOR_rocket: rgb(200, 200, 200);
+
+    --GLASS_blur: 5px;
+    --GLASS_background: rgba(108, 108, 108, 0.321);
+    --GLASS_backgroundDarker: rgb(0, 0, 0, 0.321);
+    --GLASS_backgroundAccent: rgba(48, 106, 222, 0.554);
+    --GLASS_boxShadow: 1px 10px 38px 4px rgb(0, 0, 0);
+    --GLASS_border: 1px solid rgba(255, 255, 255, 0.18);
+}
+  

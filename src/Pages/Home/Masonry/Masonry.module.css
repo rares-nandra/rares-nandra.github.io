@@ -1,0 +1,155 @@
+.container
+{
+    margin-bottom: 125px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 18px;
+    z-index: 90;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+}
+
+.column
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.centeredContainer
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: inherit;
+}
+
+.mainTitleContainer
+{
+    width: 550px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.mainTitleDynamic 
+{
+    transition: transform 1s, opacity 1s;
+}
+
+.flip
+{
+    animation: flip 1s ease-in-out;
+}
+
+@keyframes flip 
+{
+    0% {
+        transform: rotateX(0);
+        opacity: 1;
+    }
+    50% {
+        transform: rotateX(90deg);
+        opacity: 0;
+    }
+    100% {
+        transform: rotateX(0);
+        opacity: 1;
+    }
+}
+
+.mainTitle
+{
+    margin: 0;
+    padding: 0;
+    color: var(--COLOR_textPrimary);
+    font-size: 25px;
+    user-select: none;
+}
+
+.title
+{
+    margin: 0;
+    padding: 0;
+    color: var(--COLOR_textPrimary);
+    font-size: 22px;
+    user-select: none;
+}
+
+.text
+{
+    margin: 0;
+    padding: 0;
+    color: var(--COLOR_textPrimary);
+    font-size: 16px;
+    font-weight: 650;
+}
+
+.image
+{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.icon
+{
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+    color: var(--COLOR_textPrimary);
+}
+
+.locationContainer
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.locationContainerText
+{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mainCardContainer
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainCardContentContainer
+{
+    display: flex;
+    flex: 1;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.textAndIconContainer
+{
+    margin-left: 20px;
+    width: calc(100% - 40px);
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

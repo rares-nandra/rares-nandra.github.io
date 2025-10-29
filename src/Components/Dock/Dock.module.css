@@ -1,0 +1,73 @@
+.overlay
+{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+    bottom: 0;
+    z-index: 98;
+}
+
+.container
+{
+    z-index: 99;
+    position: fixed;
+    bottom: 7.5vh;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+
+    border-radius: 18px;
+    padding: 0px 10px 10px 12px;
+
+    background: var(--GLASS_background);
+    box-shadow: var(--GLASS_boxShadow);
+    backdrop-filter: blur(var(--GLASS_blur));
+    -webkit-backdrop-filter: blur(var(--GLASS_blur));
+    border: var(--GLASS_border);
+}
+
+.selections
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.selection
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 0px 20px;
+    transition: transform 0.2s;
+}
+
+.selection:hover
+{
+    transform: scale(1.2);
+}
+
+.icon
+{
+    color: var(--COLOR_textPrimary);
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.indicatorContainer
+{
+    width: 100%;
+    position: relative;
+}
+
+.indicator
+{
+    position: absolute;
+    height: 3px;
+    border-radius: 3px;
+    background-color: var(--COLOR_textPrimary);
+}

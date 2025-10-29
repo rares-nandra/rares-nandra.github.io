@@ -1,0 +1,10 @@
+.page
+{
+    position: relative;
+    width: 100svw;
+    height: 100svh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

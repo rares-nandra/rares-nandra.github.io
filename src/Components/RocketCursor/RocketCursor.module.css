@@ -1,0 +1,23 @@
+.rocket 
+{
+    position: fixed;
+    color: var(--COLOR_rocket);
+    font-size: 30px;
+}
+
+.fume {
+    position: absolute;
+    border-radius: 50%;
+    animation: fumeAnimation 4s forwards;
+}
+
+@keyframes fumeAnimation {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0);
+    }
+}

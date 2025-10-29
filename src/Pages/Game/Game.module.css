@@ -1,0 +1,59 @@
+.page 
+{
+    width: 100svw;
+    height: 100svh;
+    overflow: hidden;
+    position: relative;
+}
+
+.statsContainer 
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: end;
+}
+
+.score 
+{
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    color: var(--COLOR_textPrimary);
+    user-select: none;
+}
+
+.stat 
+{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: var(--COLOR_textPrimary);
+    user-select: none;
+}
+
+.countdownContainer
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100svw;
+    height: 100svh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown
+{
+    margin: 0;
+    margin-top: -10vh;
+    padding: 0;
+    font-size: 50px;
+    color: var(--COLOR_textPrimary);
+    user-select: none;
+}

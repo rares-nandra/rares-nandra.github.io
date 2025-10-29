@@ -1,0 +1,46 @@
+.container
+{
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.glass
+{
+    box-shadow: var(--GLASS_boxShadow);
+    backdrop-filter: blur(var(--GLASS_blur));
+    -webkit-backdrop-filter: blur(var(--GLASS_blur));
+    border: var(--GLASS_border);
+}
+
+.normal
+{
+    box-shadow: var(--GLASS_boxShadow);
+    backdrop-filter: blur(var(--GLASS_blur));
+    -webkit-backdrop-filter: blur(var(--GLASS_blur));
+    border: var(--GLASS_border);
+}
+
+.scaleSmall, .scaleMedium, .scaleLarge
+{
+    transition: transform ease-in-out 0.3s;
+}
+
+.scaleLarge:hover 
+{
+    transform: scale(1.15);
+}
+
+.scaleMedium:hover 
+{
+    transform: scale(1.055);
+}
+
+.scaleSmall:hover 
+{
+    transform: scale(1.025);
+}
+
+.clickable
+{
+    cursor: pointer !important;
+}
