@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f91e6bf.css",
-    "main.js": "/static/js/main.ac4f5431.js",
+    "main.css": "/static/css/main.07e56641.css",
+    "main.js": "/static/js/main.8b5a7eb2.js",
     "static/media/Montserrat.ttf": "/static/media/Montserrat.7e687123cd4528224ce5.ttf",
     "static/media/Profile.jpeg": "/static/media/Profile.0c41650bd156a893e80d.jpeg",
+    "static/media/Sothapia.png": "/static/media/Sothapia.23cc4298b9644f8c3d40.png",
+    "static/media/IPB.jpg": "/static/media/IPB.b6fd78d0c12b759c4079.jpg",
     "index.html": "/index.html",
-    "main.8f91e6bf.css.map": "/static/css/main.8f91e6bf.css.map",
-    "main.ac4f5431.js.map": "/static/js/main.ac4f5431.js.map"
+    "main.07e56641.css.map": "/static/css/main.07e56641.css.map",
+    "main.8b5a7eb2.js.map": "/static/js/main.8b5a7eb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f91e6bf.css",
-    "static/js/main.ac4f5431.js"
+    "static/css/main.07e56641.css",
+    "static/js/main.8b5a7eb2.js"
   ]
 }
